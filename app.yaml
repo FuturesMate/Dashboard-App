@@ -1,0 +1,6 @@
+runtime: python39  # Use the appropriate Python runtime version
+entrypoint: streamlit run your_script.py
+
+handlers:
+- url: /.*
+  script: auto
