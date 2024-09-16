@@ -1,3 +1,4 @@
 streamlit
 pandas
 altair
+gunicorn==20.1.0
