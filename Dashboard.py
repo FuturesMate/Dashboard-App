@@ -141,5 +141,5 @@ else:
     st.write(f"### {category} Data (coming soon!)")
 
 import os
-port = os.environ.get('PORT', 8501)  # Default to 8501 if no PORT is set
+port = int(os.environ.get('PORT', 10000))
 
