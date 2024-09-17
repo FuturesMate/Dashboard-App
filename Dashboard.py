@@ -139,3 +139,7 @@ if category == "NQ Session Ranges":
 
 else:
     st.write(f"### {category} Data (coming soon!)")
+
+import os
+port = os.environ.get('PORT', 8501)  # Default to 8501 if no PORT is set
+
